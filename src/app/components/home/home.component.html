@@ -1,0 +1,26 @@
+<section class="home pt-5">
+    <div class="container">
+
+        <div nz-row nzJustify="center">
+            <div nz-col nzSpan="10">
+                <div class="home_img_box"> 
+                    <img src="../../../assets/login_img.svg" class="img-fluid home_img" alt="login image">
+                </div>
+            </div>
+            <div nz-col nzSpan="10">
+                <div class="home_logo_box mb-4">
+                    <img src="./../../assets/logo_img.svg" class="img-fluid home_logo" alt="logo">
+                </div>
+
+                <div class="d-flex mb-4">
+                    <a routerLink="/home/login" routerLinkActive="active" class="btn home_btn">Login</a>
+                    <a routerLink="/home/signup" routerLinkActive="active" class="btn home_btn">SignUp</a>
+                </div>
+
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+
+
+    </div>
+</section>

@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "youssef",
+      "password": "123"
+    },
+    {
+      "username": "sdsd",
+      "password": "12",
+      "id": 2
+    },
+    {
+      "username": "qsqss",
+      "password": "A",
+      "id": 3
+    },
+    {
+      "username": "zz",
+      "password": "zz",
+      "id": 4
+    },
+    {
+      "username": "qsqs",
+      "password": "qsqs",
+      "id": 5
+    }
+  ]
+}

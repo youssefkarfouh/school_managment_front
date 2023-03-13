@@ -1,0 +1,8 @@
+.home_logo{
+    max-width: 200px;
+}
+
+.home_btn.active{
+    background-color: var(--main-color);
+    color: white;
+}
